@@ -6,8 +6,8 @@ import { useState, useEffect, useRef } from "react";
 import Clouds from "../assets/weatherImgs/clouds.png";
 import Clear from "../assets/weatherImgs/Clear.png";
 import Rain from "../assets/weatherImgs/Rain.png";
-import Snow from "../assets/weatherImgs/snowy.png";
-import Storm from "../assets/weatherImgs/storm.png";
+import Snow from "../assets/weatherImgs/Snowy.png";
+import Storm from "../assets/weatherImgs/Storm.png";
 import axios from "axios";
 import { FaThermometerHalf } from "react-icons/fa";
 import { WiRaindrop } from "react-icons/wi";
@@ -206,6 +206,7 @@ const Weather = () => {
     <div className="page-Content" >
       <div className="weather-Content">
         <div className="weather-page1" onClick={() => setSuggestions([])}>
+          
           {/* searrch input field */}
           <div className="block-color">{/* <h1>hrh</h1> */}</div>
           <div className="search-bar">
