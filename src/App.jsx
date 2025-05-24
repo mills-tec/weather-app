@@ -1,12 +1,11 @@
-import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Weather from "../src/Pages/Weather";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import "./App.css";
+import Weather from "./Pages/Weather";
+import Map from "./Pages/Map";
+import Contact from "./Pages/Contact";
 import Nav from "./navigation/Nav";
-import { useState } from "react";
-import { createContext } from "react";
+import { useState , createContext} from "react";
+
 export const ThemeContext = createContext();
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -21,9 +20,8 @@ function App() {
           <Router>
             <Nav />
             <Routes>
-              {/* <Route path='/' element={<Home/>} /> */}
               <Route path="/" element={<Weather />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/about" element={<Map />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </Router>
