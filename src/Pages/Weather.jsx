@@ -5,7 +5,7 @@ import { FaSearchLocation } from "react-icons/fa";
 import { useState, useEffect, useRef } from "react";
 import Clouds from "../assets/weatherImgs/clouds.png";
 import Clear from "../assets/weatherImgs/Clear.png";
-import Rain from "../assets/weatherImgs/rain.png";
+import Rain from "../assets/weatherImgs/Rain.png";
 import Snow from "../assets/weatherImgs/snowy.png";
 import Storm from "../assets/weatherImgs/storm.png";
 import axios from "axios";
