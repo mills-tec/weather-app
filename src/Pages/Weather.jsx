@@ -4,7 +4,7 @@ import "../Cssfolder/weather.css";
 import { FaSearchLocation } from "react-icons/fa";
 import { useState, useEffect, useRef } from "react";
 import Clouds from "../assets/weatherImgs/clouds.png";
-import Clear from "../assets/weatherImgs/clear.png";
+import Clear from "../assets/weatherImgs/Clear.png";
 import Rain from "../assets/weatherImgs/rain.png";
 import Snow from "../assets/weatherImgs/snowy.png";
 import Storm from "../assets/weatherImgs/storm.png";
