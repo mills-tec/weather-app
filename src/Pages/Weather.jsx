@@ -1,6 +1,6 @@
 import React from "react";
 import "../navigation/Nav.css";
-import "..//../src/Cssfolder/weather.css";
+import "../Cssfolder/weather.css";
 import { FaSearchLocation } from "react-icons/fa";
 import { useState, useEffect, useRef } from "react";
 import Clouds from "../assets/weatherImgs/clouds.png";
